@@ -132,6 +132,9 @@ a {
   .sectionName {
     width: auto;
   }
+  paper-fab-menu {
+    display: none;
+  }
 }
 
 @media print {
@@ -155,6 +158,9 @@ a {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
+  paper-fab-menu {
+    display: none;
+  }
 }
 
 .print html {
@@ -175,4 +181,19 @@ a {
   border: 0;
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+.print paper-fab-menu {
+  display: none;
+}
+
+paper-fab-menu[position="vertical"] {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+paper-fab-menu[position="horizontal"] {
+  position: fixed;
+  right: 185px;
+  bottom: 20px;
 }

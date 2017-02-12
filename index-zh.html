@@ -5,6 +5,7 @@
     <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
     <title>CV</title>
     <link href="index.css" rel="stylesheet">
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,6 +17,30 @@
     </script>
   </head>
   <body>
+    <script>
+      /* this script must run before Polymer is imported */
+      window.Polymer = {
+        // dom: 'shadow',
+        lazyRegister: true,
+      };
+    </script>
+    <link rel="import" href="./bower_components/polymer/polymer.html">
+    <link rel="import" href="./bower_components/paper-fab-menu/paper-fab-menu.html">
+    <script>
+      (function() {
+        if ('registerElement' in document
+            && 'import' in document.createElement('link')
+            && 'content' in document.createElement('template')) {
+          // platform is good!
+        } else {
+          // polyfill the platform!
+          var e = document.createElement('script');
+          e.src = './bower_components/webcomponentsjs/webcomponents-lite.js';
+          document.body.appendChild(e);
+        }
+      })();
+    </script>
+
     <div id='resume'>
     <div id='nameBlock' class='largeFont'>
       <span class='name'>
@@ -210,6 +235,18 @@
 
       </div>
     </div>
+
+    <paper-fab-menu icon="add" color="#1E88E5" position="vertical">
+      <a href="https://malash.me/project/cv-2015">
+        <paper-fab-menu-item label="Last yaer" icon="history" color="#1E88E5"></paper-fab-menu-item>
+      </a>
+      <a href="javascript:print()">
+        <paper-fab-menu-item label="Print" icon="print" color="#1E88E5"></paper-fab-menu-item>
+      </a>
+      <a href="./index.html">
+        <paper-fab-menu-item label="English" icon="icons:translate" color="#1E88E5"></paper-fab-menu-item>
+      </a>
+    </paper-fab-menu>
 
   </body>
 </html>
