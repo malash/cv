@@ -1,0 +1,178 @@
+html {
+  font-size: 1.2vw;
+}
+body {
+  background: #EEEEEE;
+  font-family: "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 3.3rem 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+  margin: 0.5rem;
+  text-align: justify;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 5rem 7rem;
+  background: #fff;
+  border: 0.1rem solid #ccc;
+  box-shadow: 0.2rem 0.2rem 0.3rem #aaa;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.3rem #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 1.8rem;
+}
+
+.smallFont {
+  font-size: 1rem;
+}
+
+.sectionBlock {
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 1.6rem;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 1.1rem;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 0.1rem;
+  border-color: #CFCFCF;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.summary {
+  margin-top: 0.5rem;
+}
+
+.skillBlock {
+  margin-bottom: 0.3rem;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+  body {
+    margin: 0;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: inherit;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+}
+
+@media print {
+
+  html {
+    font-size: 12px;
+  }
+  body {
+    background: #FFFFFF;
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+  #resume {
+    margin: 0;
+    max-width: inherit;
+    padding: 0.5em 1em;
+    background: #FFFFFF;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+.print html {
+  font-size: 11px;
+}
+.print body {
+  background: #FFFFFF;
+  margin: 0;
+}
+.print a {
+  color: black;
+}
+.print #resume {
+  margin: 0;
+  max-width: inherit;
+  padding: 0.5em 1em;
+  background: #FFFFFF;
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}

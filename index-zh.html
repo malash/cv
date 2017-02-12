@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+    <title>CV</title>
+    <link href="index.css" rel="stylesheet">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25658471-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id='resume'>
+    <div id='nameBlock' class='largeFont'>
+      <span class='name'>
+        <b>马冲</b>
+      </span>
+    </div>
+    <div id='basicsBlock' class='smallFont'>
+      <div class='contactBlock'>
+        <span class='email'>邮件: <a href='mailto:i@malash.me'>i@malash.me</a></span>
+        <span class='divider'>|</span>
+        <span class='phone'>电话: +86 186-1146-1148</span>
+      </div>
+        <div id='profilesBlock'>
+          <span class='url'>
+            网站: <a href='https://malash.me/'>https://malash.me/</a>
+          </span>
+          <span class='divider'>|</span>
+          <span class='github'>
+            Github: <a href='https://github.com/malash'>https://github.com/malash</a>
+          </span>
+        </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='skills' class="sectionBlock">
+      <div class='sectionName'>
+        <span>技能</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='skillBlock'>
+          <span class=''>前端:</span>
+            <span><b>Angular</b>, React, <b>RxJS</b></span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>后端:</span>
+            <span><b>Express</b>, <b>Koa</b>, PHP</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>数据库:</span>
+            <span><b>MongoDB</b>, MySQL</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>运维:</span>
+            <span>Linux, <b>PM2</b>, v8-profile, NginX</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>大数据<em>(了解)</em>:</span>
+            <span>Elastic Search, HBase, Storm</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>工具:</span>
+            <span><b>Sublime</b>, Vim, Photoshop, Office</span>
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='languages' class="sectionBlock">
+      <div class='sectionName'>
+        <span>语言</span>
+      </div>
+      <div class='sectionContent'>
+        <span class='language'>中文</span>
+        <span class='fluency'><em>(母语)</em></span>
+        <span>,</span>
+        <span class='language'>英语</span>
+        <span class='fluency'><em>(熟练)</em></span>
+
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='workBlock' class="sectionBlock">
+      <div class='sectionName'>
+        <span>工作经验</span>
+      </div>
+      <div class='sectionContent'>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              美团点评, 前端工程师
+            </span>
+            <span class='date'>
+              2015年07月 &mdash; 至今
+            </span>
+          </div>
+          <div><a href=''></a></div>
+          <ul class='highlights'>
+            <li>先后负责过两个项目：性能监控平台、App Crash 监控系统。</li>
+            <li>主要为项目架构设计与前后端开发工作，主要使用Angular、Express、Koa的JavaScript技术栈，接触OpenTSDB、Elastic Search、Kafka、Storm等大数据技术，常与App开发团队、数据团队合作。</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='publications'>
+      <div class='sectionName'>
+        <span>项目</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='blockHeader'>
+          <span class='title'>
+            性能监控平台
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              2015年07月 &mdash; 至今
+            </span>
+          </span>
+        </div>
+
+        <p>
+          用于Web、App、Node等的性能监控方案，使用者通过接入统计SDK，可以在网站上查看加载时间、网络延迟、FPS等性能指标，每日数据量百亿级别，业内竞品有OneAPM、New Relic。
+          <ul class='highlights'>
+            <li>负责前端开发工作，通过Angular、Express、Node实现前后端分离，可视化使用D3.js、EChart。</li>
+            <li>与App团队合作开发数据上报SDK，提供RESTFul的上报API。
+    系统架构工作，使用以Node为主的微服务架构，使用Elastic Search和OpenTSDB存储数据，使用Kafka实现模块解耦与增强峰值处理能力。
+            <li>网站运维工作，负责Node模块代码部署、报警监控、性能优化等。</li>
+          </ul>
+        </p>
+        <div class='separator'></div>
+        <div class='blockHeader'>
+          <span class='title'>
+            App Crash 监控系统
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              2016年3月 &mdash; 2016年10月
+            </span>
+          </span>
+        </div>
+        <p>
+          用于iOS和Android的App Crash（崩溃）监控方案，通过提取特征值对Crash数据进行分类，再进一步做展示、邮件和报警，支持iOS符号化和Android反混淆。
+          <ul class='highlights'>
+            <li>使用Angular、Express、Koa、Mongoose实现Crash数据前端展示、符号表管理、分类规则等功能。</li>
+            <li>使用Node实现RPC微服务，设计并实现iOS符号化和Android反混淆核心模块。
+            <li>设计基于MySQL的优先队列模型，保证突发Crash数据量陡增下的实时性。</li>
+          </ul>
+        </p>
+        <div class='separator'></div>
+        <div class='blockHeader'>
+          <span class='title'>
+            <a href='https://2048.malash.net/'>2048自定义</a>
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              2014年03月 &mdash; 2014年04月
+            </span>
+          </span>
+        </div>
+        <p>
+          允许用户上传文字、图片创建自定义版本2048游戏的网站。
+          <ul class='highlights'>
+            <li>使用HTML5、CSS3、PHP、MySQL开发，使用FileReader、Canvas实现图片预览上传，使用牛顿冷却定律实现热度排行榜。</li>
+            <li>独立完成网站的设计、开发、运营，服务器的维护工作。
+    现总PV 4400万人次，用户创建游戏数量22万，图片105万张。</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='education' class="sectionBlock">
+      <div class='sectionName'>
+        <span>教育经历</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='educationBlock'>
+          <span class='title'>
+            北京航空航天大学计算机学院, 北京, 中国
+          </span>
+          <span class='date'>
+            2011年09月 - 2015年07月
+          </span>
+          <div class="">
+            <p>
+            CET-6<em>(全国大学英语考试六级)</em>: <b>通过</b>
+            <br />
+            在校期间获得:
+            <ul class='highlights'>
+              <li>“挑战杯” 全国大学生课外学术科技作品竞赛三等奖</li>
+              <li>“冯如杯” 学生学术科技作品竞赛一等奖</li>
+              <li>第七届、第八届北京航空航天大学编程比赛一等奖</li>
+              <li>校级科技竞赛奖二等奖学金。</li>
+            </ul>
+            两次对外交流夏令营：日本、香港。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

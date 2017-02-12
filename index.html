@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+    <title>CV</title>
+    <link href="index.css" rel="stylesheet">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25658471-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id='resume'>
+    <div id='nameBlock' class='largeFont'>
+      <span class='name'>
+        <b>Chong MA</b>
+      </span>
+    </div>
+    <div id='basicsBlock' class='smallFont'>
+      <div class='contactBlock'>
+        <span class='email'>Email: <a href='mailto:i@malash.me'>i@malash.me</a></span>
+        <span class='divider'>|</span>
+        <span class='phone'>Tel: +86 186-1146-1148</span>
+      </div>
+        <div id='profilesBlock'>
+          <span class='url'>
+            Website: <a href='https://malash.me/'>https://malash.me/</a>
+          </span>
+          <span class='divider'>|</span>
+          <span class='github'>
+            Github: <a href='https://github.com/malash'>https://github.com/malash</a>
+          </span>
+        </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='skills' class="sectionBlock">
+      <div class='sectionName'>
+        <span>SKILLS</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='skillBlock'>
+          <span class=''>Front-End:</span>
+            <span><b>Angular</b>, React, <b>RxJS</b></span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>Back-End:</span>
+            <span><b>Express</b>, <b>Koa</b>, PHP</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>Database:</span>
+            <span><b>MongoDB</b>, MySQL</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>OPS:</span>
+            <span>Linux, <b>PM2</b>, v8-profile, NginX</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>Big Data<em>(general)</em>:</span>
+            <span>Elastic Search, HBase, Storm</span>
+        </div>
+        <div class='skillBlock'>
+          <span class=''>Tools:</span>
+            <span><b>Sublime</b>, Vim, Photoshop, Office</span>
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='languages' class="sectionBlock">
+      <div class='sectionName'>
+        <span>LANGUAGES</span>
+      </div>
+      <div class='sectionContent'>
+        <span class='language'>Chinese</span>
+        <span class='fluency'><em>(Native Speaker)</em></span>
+        <span>,</span>
+        <span class='language'>English</span>
+        <span class='fluency'><em>(Proficiency)</em></span>
+
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='workBlock' class="sectionBlock">
+      <div class='sectionName'>
+        <span>EXPERIENCE</span>
+      </div>
+      <div class='sectionContent'>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              Meituan-Dianping, Front-End Engineer
+            </span>
+            <span class='date'>
+              July 2015 &mdash; Present
+            </span>
+          </div>
+          <div><a href=''></a></div>
+          <ul class='highlights'>
+            <li>I managed tow project in this company, the Application Performance Monitoring and the App Crash Monitoring.</li>
+            <li>I designed the project architecture and use JavaScript technology stacks for front-end and back-end program including Angular, Express and Koa. I learned Big Data technology like OpenTSDB, Elastic Search, Kafka and Storm. I collaborate with App development group and data research group.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='publications'>
+      <div class='sectionName'>
+        <span>PROJECTS</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='blockHeader'>
+          <span class='title'>
+            Application Performance Monitoring
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              July 2015 &mdash; Present
+            </span>
+          </span>
+        </div>
+
+        <p>
+          A website for developers facing performance problems in their website or apps. By using data report SDK, users can view performance metrics like load time, network latency and FPS on web browser or devices.
+          <br />There are competing products industry like OneAPM and New Relic.
+          <ul class='highlights'>
+            <li>I program the website full stack using Angular, Express and Node. I use D3.jd and EChart for data visualization.</li>
+            <li>I designed the project architecture which was build on microservice based on Node. I use Elastic Search and OpenTSDB for store data. I use Kafka for module decoupling and reducing load then traffic is heavy.
+            <li>I was also responsible for the OPS work.</li>
+          </ul>
+        </p>
+        <div class='separator'></div>
+        <div class='blockHeader'>
+          <span class='title'>
+            App Crash Monitoring
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              March 2016 &mdash; October 2016
+            </span>
+          </span>
+        </div>
+        <p>
+          A solution for analyzing iOS and Android crash report to find out when and why App crashed. Reports on the website or email generated from crash data group by eigenvalue help developers find out bugs in code. In addition, the data analyzing support iOS symbolicating and Android retrace.
+          <ul class='highlights'>
+            <li>I program the website full stack using Angular, Express, Koa and Mongoose including crash report, symbol file management and eigenvalue rules.</li>
+            <li>I design and program the core module of iOS symbolicating and Android retrace.
+            <li>I design a priority queue in MySQL for guaranteeing real-time data analyzing.</li>
+          </ul>
+        </p>
+        <div class='separator'></div>
+        <div class='blockHeader'>
+          <span class='title'>
+            <a href='https://2048.malash.net/'>2048 Custom</a>
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>
+              March 2014 &mdash; April 2014
+            </span>
+          </span>
+        </div>
+        <p>
+          Allow users create 2048 game with their own words or images.
+          <ul class='highlights'>
+            <li>I use HTML5, CSS3, PHP and MySQL building the website. I use FileReader to preview and upload and use Newton's law of cooling to make a top list.</li>
+            <li>I develop and maintain the website by myself and the website has 44 million page visits, 220 thousands games and 1 million images.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='education' class="sectionBlock">
+      <div class='sectionName'>
+        <span>EDUCATION</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='educationBlock'>
+          <span class='title'>
+            Beihang University, Beijing, China
+          </span>
+          <span class='date'>
+            September 2011 - July 2015
+          </span>
+          <div class="">
+            <p>
+            CET-6<em>(College English Test 6)</em>: <b>passed</b>
+            <br />
+            Awards:
+            <ul class='highlights'>
+              <li>Third prize in the Challenge Cup Competition of Science Achievement in China</li>
+              <li>First prize in the Fengru Cup Competition of Beihang University</li>
+              <li>First prize in Programming Competition of Beihang University twice</li>
+              <li>Second-class scholarship</li>
+            </ul>
+            Summer camp tours: Japan and Hong Kong
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
