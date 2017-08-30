@@ -23,7 +23,7 @@ li {
   text-align: justify;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #resume {
@@ -148,6 +148,7 @@ a {
   }
   a {
     color: black;
+    text-decoration: none;
   }
   #resume {
     margin: 0;
