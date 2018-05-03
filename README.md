@@ -14,7 +14,7 @@ Please dont't. This is a private repo.
 
 But you can fork it as the [MIT license](./LICENSE).
 
-## Replease
+## Release
 
 Install `node >= 8` and `npm >= 5` and run:
 
