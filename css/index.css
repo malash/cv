@@ -1,0 +1,53 @@
+body {
+	background-color: #808080;
+	font-family: "Microsoft Yahei","Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti!important;
+	line-height: 2;
+}
+h1 {
+	font-size: 7em;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+hr {
+	float: left;
+	width: 100%;
+	height: 3px;
+	background-color: #666666;
+	border: 0;
+}
+.wrap {
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px 20px 50px 20px;
+	-moz-box-shadow: 0px 0px 20px #333333;
+	-webkit-box-shadow: 0px 0px 20px #333333;
+	box-shadow: 0px 0px 20px #333333;
+}
+.hreader {
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+.college {
+	font-size: 2em;
+}
+.contact {
+	margin-top: 99px;
+}
+.content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+}
+.center {
+	text-align: center;
+}
+.paragraph {
+	margin-bottom: 18px;
+}
+.project {
+	font-weight: bold;
+}
